@@ -1,0 +1,16 @@
+body {background-color: #b8b4b6; margin-left: 10%; margin-right: 10%; min-height: min-content; min-width: fit-content; font-family: 'Sunflower', sans-serif; }
+
+img {  width: 35%;
+    height: 35%;
+    overflow: hidden;
+    background-position: inherit;
+    float: right;
+
+}
+h2 {margin-left: 300px; font-size: xx-large; font-weight: bolder;}
+div {font-size: larger;}
+table{margin-left: 10%; border-collapse: collapse; text-align: center;}
+td { border: 1px solid; border-color: black; padding: 20px;}
+.a{float:left;}
+.b {float: center;}
+h3 {font-size: xx-large; font-weight: bolder; margin-left: 300px;}
