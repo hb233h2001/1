@@ -1,0 +1,51 @@
+body {
+    padding-top: 40px;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #target {
+    font-size: 48px;
+    letter-spacing: 3px;
+  }
+  
+  .info {
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  #timer {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .result-label {
+    margin-bottom: 10px;
+  }
+  
+  .result-score {
+    color: green;
+  }
+  
+  .result-miss {
+    color: red;
+  }
+  

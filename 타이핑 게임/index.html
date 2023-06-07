@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Typing Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <p id="target">word</p>
+    <p class="info">
+      Letter count: <span id="score">0</span>,
+      Miss count: <span id="miss">0</span>
+    </p>
+    <div id="timer">60</div>
+    <div id="result" class="hidden">
+      <p class="result-label">Game Over</p>
+      <p class="result-label">Score: <span id="result-score" class="result-score"></span></p>
+      <p class="result-label">Misses: <span id="result-miss" class="result-miss"></span></p>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
